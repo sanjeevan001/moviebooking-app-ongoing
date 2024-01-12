@@ -1,0 +1,61 @@
+.Movie-section {
+  display: flex;
+  gap: 16px;
+}
+
+.movie {
+  cursor: pointer;
+}
+
+.image {
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.screen-selection {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.screen {
+  padding: 16px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+
+.selected {
+  border-color: blue;
+}
+
+.available {
+  background-color: lightgreen;
+}
+
+.unavailable {
+  background-color: lightcoral;
+}
+
+.seat {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: lightblue;
+}
+
+.booked {
+  background-color: #ccc;
+}
+
+.seat-number {
+  font-size: 12px;
+}
